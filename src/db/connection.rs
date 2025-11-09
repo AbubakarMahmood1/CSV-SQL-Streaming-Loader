@@ -67,18 +67,21 @@ impl DbConnection {
     }
 
     /// Begin transaction
+    #[allow(dead_code)]
     pub async fn begin_transaction(&self) -> Result<()> {
         self.execute("BEGIN").await?;
         Ok(())
     }
 
     /// Commit transaction
+    #[allow(dead_code)]
     pub async fn commit_transaction(&self) -> Result<()> {
         self.execute("COMMIT").await?;
         Ok(())
     }
 
     /// Rollback transaction
+    #[allow(dead_code)]
     pub async fn rollback_transaction(&self) -> Result<()> {
         self.execute("ROLLBACK").await?;
         Ok(())
