@@ -27,7 +27,11 @@ impl CsvParser {
             .from_reader(file);
 
         let headers = if has_headers {
-            reader.headers()?.clone()
+            let h = reader.headers()?.clone();
+            if h.is_empty() {
+                return Err(LoaderError::EmptyFile);
+            }
+            h
         } else {
             // Generate default column names: col_0, col_1, etc.
             let first_record = reader.records().next()
