@@ -8,6 +8,7 @@ use tokio::time::sleep;
 /// Batch processor configuration
 #[derive(Debug, Clone)]
 pub struct BatchConfig {
+    #[allow(dead_code)]
     pub batch_size: usize,
     pub max_retries: usize,
     pub initial_backoff: Duration,

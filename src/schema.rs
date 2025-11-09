@@ -131,6 +131,7 @@ impl TableSchema {
     }
 
     /// Get column names as comma-separated string
+    #[allow(dead_code)]
     pub fn column_names(&self) -> String {
         self.columns
             .iter()
@@ -173,6 +174,7 @@ impl TableSchema {
 
 /// Schema inference configuration
 #[derive(Debug, Clone)]
+#[allow(dead_code)]
 pub struct InferenceConfig {
     pub sample_size: usize,
     pub has_headers: bool,

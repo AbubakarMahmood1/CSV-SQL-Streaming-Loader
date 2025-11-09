@@ -7,6 +7,7 @@ use std::time::Instant;
 pub struct ProgressTracker {
     bar: ProgressBar,
     start_time: Instant,
+    #[allow(dead_code)]
     total_rows: Option<u64>,
 }
 
@@ -42,6 +43,7 @@ impl ProgressTracker {
     }
 
     /// Update progress with row count
+    #[allow(dead_code)]
     pub fn update(&self, rows_processed: u64) {
         self.bar.set_position(rows_processed);
     }
@@ -52,6 +54,7 @@ impl ProgressTracker {
     }
 
     /// Set a status message
+    #[allow(dead_code)]
     pub fn set_message(&self, msg: String) {
         self.bar.set_message(msg);
     }

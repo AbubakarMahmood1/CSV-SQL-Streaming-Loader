@@ -82,7 +82,7 @@ impl CsvParser {
     }
 
     /// Get an iterator over records
-    pub fn records(&mut self) -> CsvRecordIterator {
+    pub fn records(&mut self) -> CsvRecordIterator<'_> {
         CsvRecordIterator {
             reader: &mut self.reader,
         }
