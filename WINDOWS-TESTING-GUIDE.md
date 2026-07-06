@@ -8,7 +8,7 @@ Since you're accessing Claude Code via web browser, you need to pull this code t
 
 ```bash
 # Clone the repo (if you haven't already)
-git clone https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader.git
+git clone https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader.git
 cd CSV-SQL-Streaming-Loader
 
 # Or pull latest changes (if already cloned)
@@ -17,7 +17,7 @@ git pull origin main
 
 ### Option B: Download from GitHub
 
-1. Go to: https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader
+1. Go to: https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader
 2. Click **Code** → **Download ZIP**
 3. Extract to a folder
 

@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["CSV-SQL Loader Contributors"]
 description = "High-performance Rust CLI for streaming CSV data into PostgreSQL"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader"
+repository = "https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader"
 
 [dependencies]
 # CLI

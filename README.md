@@ -29,7 +29,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader.git
+git clone https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader.git
 cd CSV-SQL-Streaming-Loader
 
 # Build release binary
@@ -266,7 +266,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone repo
-git clone https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader.git
+git clone https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader.git
 cd CSV-SQL-Streaming-Loader
 
 # Build
@@ -307,8 +307,8 @@ at your option.
 
 ## 📬 Contact
 
-- **Issues**: [GitHub Issues](https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader/issues)
-- **Pull Requests**: [GitHub PRs](https://github.com/AbubakarMahmood1/CSV-SQL-Streaming-Loader/pulls)
+- **Issues**: [GitHub Issues](https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader/issues)
+- **Pull Requests**: [GitHub PRs](https://github.com/AbubakarMahmood/CSV-SQL-Streaming-Loader/pulls)
 
 ---
 
